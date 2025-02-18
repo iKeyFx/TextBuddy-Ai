@@ -22,7 +22,7 @@ export async function detectLanguage({
   } catch (err) {
     setError("Error detecting language.");
     toast.error("Having trouble detecting language");
-    console.error(err);
+    // console.error(err);
   }
 }
 
@@ -40,7 +40,7 @@ export async function summarizeText({
   }
 
   try {
-    console.log("Creating summarize session...");
+    // console.log("Creating summarize session...");
     setAiResponse(`Summarizing...`);
     setIsLoadingSum(true);
 
@@ -58,7 +58,7 @@ export async function summarizeText({
     setIsLoadingSum(false);
     toast.error("Sorry, Unable to summarize the text");
     setError("Error generating summary.");
-    console.error(err);
+    // console.error(err);
   }
 }
 
@@ -127,7 +127,7 @@ export async function translateText({
     return result;
   } catch (err) {
     setIsLoadingTranslate(false);
-    console.error("Translation Error:", err);
+    // console.error("Translation Error:", err);
     setShowResponse(false);
 
     if (err !== "Language pair not supported") {

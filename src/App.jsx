@@ -25,8 +25,8 @@ function App() {
         <Header>
           <h2>TextBuddy</h2>
           <p>
-            Your buddy in detecting text language, summarize long text and
-            translate text into different languages
+            Your go-to buddy for detecting languages, summarizing long texts,
+            and translating with ease!
           </p>
         </Header>
         <Layout />

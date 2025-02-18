@@ -7,7 +7,6 @@ const StyledApp = styled.div`
   min-height: 100dvh;
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
   align-items: center;
   padding: 1rem 5rem 0rem;
 

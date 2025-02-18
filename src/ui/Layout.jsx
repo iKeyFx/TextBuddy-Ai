@@ -97,6 +97,7 @@ const StyledOutputDetails = styled.div`
       padding: 0.25rem;
       border-radius: 4px;
       border: 1px solid var(--color-primary-1);
+      color: var(--color-secondary-1);
     }
   }
 `;
@@ -167,6 +168,7 @@ const Button = styled.button`
 const StyledIcon = styled(FaArrowUpLong)`
   width: 15px;
   height: 15px;
+  color: var(--color-secondary-1);
 `;
 
 function Layout() {
